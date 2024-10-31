@@ -1,5 +1,6 @@
 import Logo from "../assets/logo.png";
 import PlusIcon from "../assets/plus_icon.svg";
+import Button from "../components/Button";
 
 const descriptions = [
   {
@@ -18,7 +19,7 @@ const descriptions = [
 
 const ReferalPage = () => {
   return (
-    <div className="h-[calc(100%_-_100px)] p-4 overflow-hidden">
+    <>
       <h6 className="text-primary text-sm">Referrals</h6>
       <div className="mt-11 flex flex-col items-center">
         <img src={Logo} alt="Logo" />
@@ -46,12 +47,12 @@ const ReferalPage = () => {
         ))}
       </div>
       <div className="mt-8 flex justify-center">
-        <button className="rounded-3xl bg-primary text-black px-5 py-3 font-medium flex justify-center items-center gap-2">
+        <Button className="px-5 py-3">
           <img src={PlusIcon} alt="+" width={14} height={14} />
           Invite friends
-        </button>
+        </Button>
       </div>
-    </div>
+    </>
   );
 };
 

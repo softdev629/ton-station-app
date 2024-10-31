@@ -1,7 +1,7 @@
 import BuyIcon from "./BuyIcon";
 import FollowingIcon from "./FollowingIcon";
-import FormingIcon from "./FormingIcon";
+import FarmingIcon from "./FarmingIcon";
 import LauncherIcon from "./LauncherIcon";
 import ReferralIcon from "./ReferralIcon";
 
-export { BuyIcon, FollowingIcon, FormingIcon, LauncherIcon, ReferralIcon };
+export { BuyIcon, FollowingIcon, FarmingIcon, LauncherIcon, ReferralIcon };

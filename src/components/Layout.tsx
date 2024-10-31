@@ -5,7 +5,7 @@ import {
   BuyIcon,
   FollowingIcon,
   LauncherIcon,
-  FormingIcon,
+  FarmingIcon,
 } from "./icons";
 
 const navItems = [
@@ -25,9 +25,9 @@ const navItems = [
     icon: <LauncherIcon />,
   },
   {
-    text: "Forming",
-    to: "/forming",
-    icon: <FormingIcon />,
+    text: "Farming",
+    to: "/farming",
+    icon: <FarmingIcon />,
   },
   {
     text: "Buy",
@@ -42,7 +42,9 @@ const Layout = () => {
 
   return (
     <div className="relative bg-black w-screen h-screen text-white">
-      <Outlet />
+      <div className="h-[calc(100%_-_100px)] p-4 overflow-hidden">
+        <Outlet />
+      </div>
       <div className="absolute mx-4 rounded-3xl bg-secondary px-3 py-4 bottom-4 w-[calc(100%_-_2rem)] flex justify-between">
         {navItems.map((item, index) => (
           <div

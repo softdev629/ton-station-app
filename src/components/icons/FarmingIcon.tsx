@@ -1,6 +1,6 @@
 import React from 'react';  
 
-const FormingIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (  
+const FarmingIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (  
   <svg  
     xmlns="http://www.w3.org/2000/svg"  
     viewBox="0 0 25 24"  
@@ -32,4 +32,4 @@ const FormingIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   </svg>  
 );  
 
-export default FormingIcon;
+export default FarmingIcon;
