@@ -7,5 +7,6 @@
   :root {
     --color-primary: #4ADE80;
     --color-secondary: #171717;
+    --gradient-primary: linear-gradient(180deg, #6ECD8B 0%, #57DA7F 100%);
   }
 }

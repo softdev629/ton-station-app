@@ -20,7 +20,7 @@ const descriptions = [
 const ReferalPage = () => {
   return (
     <>
-      <h6 className="text-primary text-sm">Referrals</h6>
+      <h6 className="text-primary text-sm font-medium">Referrals</h6>
       <div className="mt-11 flex flex-col items-center">
         <img src={Logo} alt="Logo" />
         <div className="mt-3 text-xl font-medium">Invite friends</div>
