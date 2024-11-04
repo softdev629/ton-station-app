@@ -10,3 +10,7 @@
     --gradient-primary: linear-gradient(180deg, #6ECD8B 0%, #57DA7F 100%);
   }
 }
+
+.farming-item:hover .check-hover {
+  display: flex;
+}
