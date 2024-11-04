@@ -41,7 +41,13 @@ const Layout = () => {
   const location = useLocation();
 
   return (
-    <div className="relative bg-black w-screen h-screen text-white">
+    <div
+      className={`relative ${
+        location.pathname === "/buy"
+          ? "bg-[url('/buy_bg.png')] bg-black"
+          : "bg-black"
+      } w-screen h-screen text-white`}
+    >
       <div className="h-[calc(100%_-_100px)] p-4 overflow-hidden">
         <Outlet />
       </div>

@@ -7,7 +7,7 @@ interface CheckboxProps {
 const Checkbox: React.FC<CheckboxProps> = ({ checked }) => {
   return (
     <label className="flex w-6 h-6 items-center justify-center cursor-pointer">
-      <input type="checkbox" className="peer sr-only" checked={checked} />
+      <input type="checkbox" className="peer sr-only" checked={checked} readOnly />
       <div
         className={`w-[18px] h-[18px] rounded border flex items-center justify-center  
         ${checked ? "bg-green-400 border-transparent" : "border-green-400"}   
