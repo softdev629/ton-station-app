@@ -44,7 +44,7 @@ const Layout = () => {
     <div
       className={`relative ${
         location.pathname === "/buy"
-          ? "bg-[url('/buy_bg.png')] bg-black"
+          ? "bg-[url('/buy_bg.png')] bg-black bg-no-repeat bg-cover"
           : "bg-black"
       } w-screen h-screen text-white`}
     >
